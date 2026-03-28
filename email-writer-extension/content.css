@@ -1,0 +1,42 @@
+.ai-reply-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 36px;
+    min-width: 72px;
+    padding: 0 16px;
+    margin-right: 8px;
+
+    background-color: #096ef2;
+    color: #fff;
+
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+}
+
+/* Hover */
+.ai-reply-btn:hover {
+    background-color: #1765cc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Active click */
+.ai-reply-btn:active {
+    background-color: #1557b0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Focus */
+.ai-reply-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(26,115,232,0.3);
+}
